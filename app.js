@@ -95,5 +95,6 @@ submitBtn.addEventListener('click', function () {
 
     if (document.getElementById('tryTime').innerText == 0) {
         submitBtn.disabled = true;
+        submitBtn.style.opacity+=0.6;
     }
 })
